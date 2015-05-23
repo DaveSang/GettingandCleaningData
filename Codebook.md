@@ -33,7 +33,26 @@ Data analysis undertaken to
     2. Extract only the measurements on the mean and standard deviation for each measurement.
     3. Use descriptive activity names to name the activities in the data set.
     4. Appropriately label the data set with descriptive variable names.
-    5. From the data set in step 4, create a second, independent tidy data set with the average of each variable for each activity and each subject.
+    5. From the data set in step 4, create a second, independent tidy data set with the average of each variable for each activity     and each subject.
+
+- Train and Test Subject variable combined.
+- Train and Test Activity variable combined.
+- Train and Test Features variable combined.
+All done so to combine relevant data and enable future sorting by both fields/columns.  Datasets combined based on Subject, Activity and Feature to enable comparison of datasets (theory vs practice).
+
+The following descriptors were changed to facilitate easier understanding to observers of the experiment.
+ - "Acc" to "Accelerometer"
+ - "Gyro" to "Gyroscope
+ - "BodyBody" to "Body"
+ - "Mag" to "Magnitude"
+ - "^t" to "Time", 
+ - "^f" to "Frequency"
+ - "tBody" to "TimeBody"
+ - "-mean()" to "Mean"
+ - "-std()" to "STD"
+ - "-freq()" to "Frequency"
+ - "angle" to "Angle"
+ - "gravity" to "Gravity"
 
 ## Information about the experimental study design used
 Human Activity Recognition Using Smartphones Dataset
