@@ -29,11 +29,11 @@ The following files are available for the train and test data. Their description
 ## Information about the summary choices made
 Subset data (extraction) based on availability of Mean and Std. (Standard Deviation) data.
 Data analysis undertaken to 
-1. Merge the training and the test sets to create one data set.
-2. Extract only the measurements on the mean and standard deviation for each measurement.
-3. Use descriptive activity names to name the activities in the data set.
-4. Appropriately label the data set with descriptive variable names.
-5. From the data set in step 4, create a second, independent tidy data set with the average of each variable for each activity and each subject.
+    1. Merge the training and the test sets to create one data set.
+    2. Extract only the measurements on the mean and standard deviation for each measurement.
+    3. Use descriptive activity names to name the activities in the data set.
+    4. Appropriately label the data set with descriptive variable names.
+    5. From the data set in step 4, create a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 ## Information about the experimental study design used
 Human Activity Recognition Using Smartphones Dataset
@@ -113,10 +113,10 @@ Additional vectors obtained by averaging the signals in a signal window sample. 
 - tBodyGyroJerkMean
 
 Activity Labels are explained by the following.
-1. WALKING
-2. WALKING_UPSTAIRS
-3. WALKING_DOWNSTAIRS
-4. SITTING
-5. STANDING
-6. LAYING
+    1. WALKING
+    2. WALKING_UPSTAIRS
+    3. WALKING_DOWNSTAIRS
+    4. SITTING
+    5. STANDING
+    6. LAYING
 
