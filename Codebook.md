@@ -1,7 +1,6 @@
 # Codebook
-## Calculations are based on: 
 
-# Information about the variables in the data set not contained in the tidy data 
+## Information about the variables in the data set not contained in the tidy data 
 - 'features_info.txt': Shows information about the variables used on the feature vector.
 
 - 'features.txt': List of all features.
