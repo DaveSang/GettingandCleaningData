@@ -35,4 +35,4 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 13. I made the "Subject" field/column a factor.  I the then aggregated the "Subject" and "Activity with the "Subset data", "mean"       using the aggregate() function and then ordered the Subset data by "Subject" and "Activity".
 14. I then generated the "Tidy.txt" file using the write.table() function.
 
-## Please refer to my codebook for mor information (Codebook.md)
+## Please refer to my codebook for more information (Codebook.md) in relation to my project submission.
