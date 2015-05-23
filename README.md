@@ -20,24 +20,17 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 
 
 ## An explanation of how I went about developing the code neccesary to meet the assignment requirements.
-## Stage 1
 1. To kick things off, I downloaded the data and placed the unzipped files in my Working Directory.
-## Stage 2
 2. I then read the "UCI HAR Dataset/features.txt" and "UCI HAR Dataset/activity_labels.txt" files.
 3. I read the "UCI HAR Dataset/train/subject_train.txt", "UCI HAR Dataset/train/y_train.txt" and "UCI HAR Dataset/train/X_train.txt"    (training data) files.
 4. I then read "UCI HAR Dataset/test/subject_test.txt", "UCI HAR Dataset/test/y_test.txt" and "UCI HAR Dataset/test/X_test.txt"        files.
-## Stage 3
 5. I proceeded to combine/merge the data, initially using the rbind() function to merge the test and traninig data sets in relation    to subject, activity and features, and allocated column/field names for variables "Subject" and "Activity".
 6. I then allocated the data to a single table using the cbind() function and checked to see that all was as to be expected. 
-## Stage 4
 7. I then looked for all columns that had a "Std." or "Mean." and then lookd at the DIM of each field.
 8. I generated an output with a condition to ensure that the required columns and conditions ("Std" and "Mean") were met.  From now    on referred to the "Subset data".
-## Stage 5
-9. I then named/labelled the activities in the dataset and allocated the Activity field/column as a character (from a numeric type) within the Subset data.  This was done to ensure that the field/column can can accept activity names.  The activity names were then taken from the documentation supporting.  
+9. I then named/labelled the activities in the dataset and allocated the Activity field/column as a character (from a numeric type)    within the Subset data.  This was done to ensure that the field/column can can accept activity names.  The activity names were      then taken from the documentation supporting.  
 10. I then enabled the Activity variable to be factored for future processing (changing naming conventions with the Subset data).
-## Stage 6
-11. I then looked at te field/column names within the Subset data (all data that had "Std." and "Mean" data).  I proceeded to change those variable identities (and others) to something more visually appealing and easier to understand.
-## Stage 7
+11. I then looked at te field/column names within the Subset data (all data that had "Std." and "Mean" data).  I proceeded to change    those variable identities (and others) to something more visually appealing and easier to understand.
 12. I then proceeded to clean things up within the Subset dataset.
-13. I made the "Subject" field/column a factor.  I the then aggregated the "Subject" and "Activity with the "Subset data", "mean" and using the aggregate() function and then ordered the subset data by subject and activity.
+13. I made the "Subject" field/column a factor.  I the then aggregated the "Subject" and "Activity with the "Subset data", "mean"      and using the aggregate() function and then ordered the subset data by subject and activity.
 14. I then generated the "Tidy.txt" file using the write.table() function.
