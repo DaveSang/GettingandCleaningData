@@ -26,7 +26,7 @@ The following files are available for the train and test data. Their description
 - 'train/Inertial Signals/body_gyro_x_train.txt': The angular velocity vector measured by the gyroscope for each window sample. The units are radians/second. 
 
 
-## Information about the summary choices made - In addition to comments available in run_analysis.R
+## Information about the summary choices made - In addition to comments available in run_analysis.R and Readme.md
 Subset data (extraction) based on availability of Mean and Std. (Standard Deviation) data.
 Data analysis undertaken to 
     1. Merge the training and the test sets to create one data set.
