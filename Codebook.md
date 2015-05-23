@@ -26,7 +26,7 @@ The following files are available for the train and test data. Their description
 - 'train/Inertial Signals/body_gyro_x_train.txt': The angular velocity vector measured by the gyroscope for each window sample. The units are radians/second. 
 
 
-# Information about the summary choices made
+## Information about the summary choices made
 Subset data (extraction) based on availability of Mean and Std. (Standard Deviation) data.
 Data analysis undertaken to 
 1. Merge the training and the test sets to create one data set.
@@ -35,7 +35,7 @@ Data analysis undertaken to
 4. Appropriately label the data set with descriptive variable names.
 5. From the data set in step 4, create a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-# Information about the experimental study design used
+## Information about the experimental study design used
 Human Activity Recognition Using Smartphones Dataset
 Version 1.0
 
